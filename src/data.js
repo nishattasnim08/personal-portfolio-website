@@ -136,9 +136,6 @@ export const projectsNav = [
   {
     name: 'web development',
   },
-  {
-    name: 'branding',
-  },
 ];
 
 // skill

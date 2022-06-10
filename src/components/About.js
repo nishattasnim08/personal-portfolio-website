@@ -18,7 +18,7 @@ const About = () => {
                                 <br />
                                 I also do graphics design including logo, business card, flyer, social media banner, etc. using Adobe Photoshop, Adobe Illustrator and Canva.
                                 <br />
-                                I also love to do Probblem Solving using C and basic Java.
+                                I also love to do Problem Solving using C and basic Java.
                             </p>
                         </div>
                         <button className='py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover transition-all'>Contact Me</button>

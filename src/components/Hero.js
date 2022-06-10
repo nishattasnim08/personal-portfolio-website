@@ -8,12 +8,16 @@ const Hero = () => {
                 <div className="flex items-center h-full pt-8">
                     {/* left side */}
                     <div className="flex flex-1 flex-col items-center lg:items-start">
-                        <p className='text-xl text-accent mb-[22px]'>Hey, I'm Nishat!</p>
+                        <p className='text-xl md:text-3xl text-accent mb-[22px]'>Hey, I'm Nishat!</p>
                         <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:translate-[-2px]'>I Build & Design <br />Web Interface.</h1>
                         <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>I'm a Jr. MERN Web Developer and also a Graphics Designer...</p>
                         <div>
-                            <button className='mx-8 my-4 py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover'>Download CV</button>
+                            <a href="../myFiles/Nishat-Tasnim-CV.pdf" download>
+                                <button className='mx-8 my-4 py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover'>Download CV</button>
+                            </a>
+                            <a href="../myFiles/Nishat-Tasnim-Resume.pdf" download>
                             <button className='mx-8 my-4 py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover'>Download Resume</button>
+                            </a>
                         </div>
                     </div>
                     {/* right side */}
