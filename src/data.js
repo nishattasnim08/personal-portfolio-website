@@ -1,9 +1,9 @@
 //  icons
 import {
-  FiYoutube,
+  FiFacebook,
   FiInstagram,
   FiGithub,
-  FiDribbble,
+  FiLinkedin,
   FiLayout,
   FiSettings,
   FiPenTool,
@@ -12,12 +12,6 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -73,46 +67,23 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://www.facebook.com/nishattasnim24',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/nishattasnim24/',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/nishattasnim08',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/nishattasnim24/',
   },
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
 
 // projects
 export const projectsData = [
