@@ -7,7 +7,6 @@ import {
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
@@ -91,7 +90,7 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'project name 1',
-    category: 'UI/UX design',
+    category: 'graphics design',
   },
   {
     id: '2',
@@ -103,13 +102,13 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'project name 3',
-    category: 'UI/UX design',
+    category: 'graphics design',
   },
   {
     id: '4',
     image: Project4,
     name: 'project name 4',
-    category: 'branding',
+    category: 'web development',
   },
   {
     id: '5',
@@ -131,7 +130,7 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'graphics Design',
   },
   {
     name: 'web development',
@@ -182,16 +181,11 @@ export const services = [
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Graphics Design',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
+  
 ];
 
 // testimonials
