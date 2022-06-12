@@ -18,9 +18,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <a href="/">
-                            <p className='logo'>Nishat Tasnim</p>
-                        </a>
+                    <p className='logo'>Nishat Tasnim</p>
                     </div>
 
                     <div>
