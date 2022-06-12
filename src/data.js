@@ -13,12 +13,15 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import fashion1 from '../src/assets/img/projects/fashio-world-1.png';
+import fashion2 from '../src/assets/img/projects/fashio-world-2.png';
+import fashion3 from '../src/assets/img/projects/fashio-world-3.png';
+import moment1 from '../src/assets/img/projects/moment1.png';
+import moment2 from '../src/assets/img/projects/moment2.png';
+import moment3 from '../src/assets/img/projects/moment3.png';
+import cooky1 from '../src/assets/img/projects/cooky1.png';
+import cooky2 from '../src/assets/img/projects/cooky2.png';
+import cooky3 from '../src/assets/img/projects/cooky3.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -80,40 +83,61 @@ export const social = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
-    name: 'project name 1',
-    category: 'graphics design',
+    image1: fashion1,
+    image2: fashion2,
+    image3: fashion3,
+    name: 'Fashion World',
+    shortDescription: "This is a Cloths' Warehouse Website",
+    detailDescription: `This is a fashion warehouse
+    This website content various kind of dresses
+    This website allows to sell and restock product
+    This website allows you to manage items
+    This website contains some theoritical topics in blogs section`,
+    technology: 'React JS, React Bootstrap, ',
+    liveSite: 'https://fashion-world-60392.web.app/',
+    clientSide: 'https://github.com/nishattasnim08/fashion-world-client-side',
+    serverSide: 'https://github.com/nishattasnim08/fashion-world-server-side',
+    category: 'web development',
   },
+  
   {
     id: '2',
-    image: Project2,
-    name: 'project name 2',
+    image1: cooky1,
+    image2: cooky2,
+    image3: cooky3,
+    name: 'Cooky',
+    shortDescription: 'This is a manufacturing webside which includes Cooking Ware',
+    detailDescription: `This is a manufacturing website
+    This website allows user to post review
+    This website allows user to order tools
+    This website allows admin to manage orders
+    This website contains protective routes`,
+    liveSite: 'https://cooky-f12d4.web.app/',
+    clientSide: 'https://github.com/nishattasnim08/cooky-client-side',
+    serverSide: 'https://github.com/nishattasnim08/cooky-server-side',
+    technology: 'react, tailwind, Daisy UI, react hook form, react firebase hook, nodeJS, mongoDB, express, crud operation',
     category: 'web development',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'graphics design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
+    image1: moment1,
+    image3: moment2,
+    image2: moment3,
+    name: 'Moments',
+    shortDescription: 'This is an individual service provider webside who provide Photography Services',
+    detailDescription: `Independent Service Provider
+    Sign In/Sign Out
+    Sign Up
+    Create user with email and password (not working)
+    Create user with Google
+    CheckOte Route as Protected Route`,
+    liveSite: 'https://moments-c202a.web.app/home',
+    clientSide: 'https://github.com/nishattasnim08/moments',
+    // serverSide: ,
+    technology: 'React Bootstrap, React Router, React Hooks, Firebase Authentication',
     category: 'web development',
   },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+ 
 ];
 
 // projects
@@ -122,10 +146,10 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'graphics Design',
+    name: 'web development',
   },
   {
-    name: 'web development',
+    name: 'graphics Design',
   },
 ];
 

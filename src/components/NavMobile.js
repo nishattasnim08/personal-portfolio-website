@@ -5,9 +5,11 @@ import { XIcon, MenuAlt3Icon } from '@heroicons/react/outline';
 import Socials from './Socials';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { useNavigate } from "react-router-dom";
 
 
 const NavMobile = () => {
+    const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
 
     const circleVariants = {
@@ -56,9 +58,14 @@ const NavMobile = () => {
                         return <li key={index} className='mb-8'>
                             <Link to={Item.href} smooth={true} duration={500} offset={-70} className='text-xl cursor-pointer capitalize'>{Item.name}</Link>
                         </li>
-                    })
-                }
+
+                    })}
+                <li>
+                    <Link to='/blog' onClick={() => navigate('/blog')} className='text-xl cursor-pointer capitalize'>Blog</Link>
+                </li>
+
             </motion.ul>
+
         </nav>
     );
 };

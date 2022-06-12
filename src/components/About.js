@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import aboutImg from '../assets/img/about.png';
 
 
 const About = () => {
     return (
-        <section className='section bg-secondary'>
+        <section id='about' className='section bg-secondary'>
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-24">
                     <img className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl' src={aboutImg} alt="" />
@@ -21,7 +22,7 @@ const About = () => {
                                 I also love to do Problem Solving using C and basic Java.
                             </p>
                         </div>
-                        <button className='py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover transition-all'>Contact Me</button>
+                        <Link to="contact" spy={true} smooth={true} duration={500} offset={-70} ><button className='py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover transition-all'>Contact Me</button></Link>
                     </div>
                 </div>
             </div>

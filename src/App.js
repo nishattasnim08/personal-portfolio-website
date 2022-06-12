@@ -1,27 +1,22 @@
 import React from 'react';
-import About from './components/About';
+import { Routes, Route, Link } from "react-router-dom";
 import BacToTop from './components/BacToTop';
-import Contact from './components/Contact';
+import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Portfolio from './components/Portfolio';
-import Services from './components/Services';
-import Skills from './components/Skills';
+import Home from './components/Home';
 
 // import components
 
 const App = () => {
   return <div>
     <Header />
-    <Hero />
-    <About />
-    <Skills />
-    <Portfolio />
-    <Services />
-    <Contact />
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
     <Footer />
-    <BacToTop/>
+    <BacToTop />
   </div>;
 };
 
