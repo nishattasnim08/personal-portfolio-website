@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col items-center text-center">
                     <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>Contact Me</h2>
-                    <p className='subtitle'>Contact with me for more quiries</p>
+                    <p className='subtitle'>Contact with me for more queries</p>
                 </div>
 
                 <div className="flex flex-col lg:gap-x-8 lg:flex-row">

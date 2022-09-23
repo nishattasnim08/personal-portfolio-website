@@ -137,6 +137,7 @@ export const projectsData = [
     technology: 'React Bootstrap, React Router, React Hooks, Firebase Authentication',
     category: 'web development',
   },
+  
  
 ];
 

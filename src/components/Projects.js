@@ -8,6 +8,7 @@ const Projects = () => {
     const [item, setItem] = useState({ name: 'all' });
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(0);
+    const [projectNo, setProjectNo] = useState(3);
 
     useEffect(() => {
         if (item.name === 'all') {
@@ -43,12 +44,19 @@ const Projects = () => {
 
             <section className='grid lg:grid-cols-3 gap-y-12 lg:gap-x-8 lg:gap-y-8'>
                 {
-                    projects.map((item) => {
+
+                    projects.slice(0, projectNo).map((item) => {
                         return <Project item={item} key={item.id} />
                     }
                     )}
 
             </section>
+            {
+                projectNo < projects.length && projects ?
+                    <button onClick={() => setProjectNo(projects.length)} className='mx-2 text-2xl my-4 py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover'>Show More</button>
+                    :
+                    <button onClick={() => setProjectNo(3)} className='mx-2 text-2xl my-4 py-2 px-5 rounded-full text-white bg-accent hover:bg-accent-hover'>Show Less</button>
+            }
         </div>
     );
 };
